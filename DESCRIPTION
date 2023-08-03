@@ -12,9 +12,12 @@ URL: https://github.com/whmacken/libminerWHM,
     https://whmacken.github.io/libminerWHM/
 BugReports: https://github.com/whmacken/libminerWHM/issues
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
     dplyr,
     fs,
     purrr
+VignetteBuilder: knitr

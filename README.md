@@ -4,6 +4,8 @@
 # libminerWHM
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/whmacken/libminerWHM/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/whmacken/libminerWHM/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminerWHM is to …

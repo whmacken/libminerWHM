@@ -1,3 +1,11 @@
+#' R Library Summary
+#'
+#'Provides brief summary of installed packages on local machine
+#' @return a data.frame containing count of packages in each library
+#' @export
+#'
+#' @examples
+#' lib_summary()
 lib_summary <- function() {
   pkgs <- utils::installed.packages()
   pkg_tbl <- table(pkgs[, "LibPath"])

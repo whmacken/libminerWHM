@@ -3,7 +3,7 @@ Title: Summarize Installed R Libraries
 Version: 0.0.0.9000
 Authors@R: 
     person("William H.", "MacKenzie", , "Will.MacKenzie@gov.bc.ca", role = c("aut", "cre"))
-Description: Functions to view and summarize installed R libraries and packages on local machine
+Description: Functions to view and summarize installed R libraries and packages on local machine.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

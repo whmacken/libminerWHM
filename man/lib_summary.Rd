@@ -4,7 +4,10 @@
 \alias{lib_summary}
 \title{R Library Summary}
 \usage{
-lib_summary()
+lib_summary(sizes = FALSE)
+}
+\arguments{
+\item{sizes}{logical to show library sizes in bytes}
 }
 \value{
 a data.frame containing count of packages in each library
@@ -14,4 +17,5 @@ Provides brief summary of installed packages on local machine
 }
 \examples{
 lib_summary()
+lib_summary(sizes = TRUE)
 }

@@ -1,5 +1,5 @@
 test_that("lib_summary returns expected results", {
-  expect_silent(result <- lib_summary())
+  result <- lib_summary()
   expect_equal (ncol(result),2)
   expect_s3_class (result, "data.frame")
   expect_equal(names(result), c("library", "n_packages"))

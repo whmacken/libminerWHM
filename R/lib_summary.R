@@ -4,7 +4,7 @@
 #'
 #' @param sizes logical to show library sizes in bytes
 #'
-#' @return a data.frame containing count of packages in each library
+#'@return a data.frame containing count of packages in each library
 #' @export
 #'
 #' @examples

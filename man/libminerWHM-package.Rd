@@ -12,6 +12,7 @@ Functions to view and summarize installed R libraries and packages on local mach
 Useful links:
 \itemize{
   \item \url{https://github.com/whmacken/libminerWHM}
+  \item \url{https://whmacken.github.io/libminerWHM/}
   \item Report bugs at \url{https://github.com/whmacken/libminerWHM/issues}
 }
 
